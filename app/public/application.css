@@ -1,0 +1,46 @@
+body {
+  background-image: url(http://www.therestorationhouse.net/wp-content/uploads/2015/01/clock.png);
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+  margin-top: 230px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+a {
+  text-align: center;
+}
+
+#btns {
+  text-align: center;
+}
+
+.form-control {
+  width: 50%;
+}
+
+#subbut{
+  margin-top:20px;
+}
+
+.myform{
+    margin-top: 200px;
+    margin-left: 280px;
+    width:80% /* value of your choice which suits your alignment */
+}
+
+#task-list {
+  text-align:center;
+}
+
+#one-task {
+  text-align:center;
+}
+
+.taskbtn {
+  margin-top: 200px;
+}

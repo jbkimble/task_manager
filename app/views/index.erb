@@ -1,6 +1,13 @@
 <h1>All Tasks</h1>
 
+<div id = "task-list">
 <% @tasks.each do |task| %>
   <h3><a href="/tasks/<%= task.id %>"><%= task.title %></a></h3>
     <p><%= task.description %></p>
 <% end %>
+</div>
+
+<div id = "btns">
+  <a href="/" class="btn btn-info">Home</a>
+<a href="/tasks/new" class="btn btn-primary">New Task</a>
+</div>
